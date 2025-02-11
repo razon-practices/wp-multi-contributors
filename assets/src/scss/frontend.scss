@@ -1,0 +1,51 @@
+.wpmc-contributors {
+	background: #f0f2f4;
+	padding: 20px;
+	margin-block-start: 3rem;
+
+	h3 {
+		margin: 0 0 20px;
+	}
+
+	.contributor {
+		display: flex;
+		align-items: flex-start;
+		background: #fff;
+		padding: 15px;
+
+		&:not(:last-child) {
+			margin-bottom: 15px;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		}
+
+		&-avatar {
+			align-self: center;
+			margin-right: 15px;
+		}
+
+		&-info {
+			flex: 1;
+			align-self: center;
+
+			a {
+				margin: 0;
+				font-size: 14px;
+				font-weight: 600;
+				line-height: 1.2;
+				display: block;
+				transition: all 0.3s ease-in-out;
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+
+			p {
+				font-size: 13px;
+				line-height: 1.2;
+				margin: 6px 0 0 0;
+			}
+		}
+	}
+}

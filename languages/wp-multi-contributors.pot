@@ -1,0 +1,45 @@
+# Copyright (C) 2024 Razon
+# This file is distributed under the GPL-3.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Multi Contributors 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-multi-contributors\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-14T09:40:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: wp-multi-contributors\n"
+
+#. Plugin Name of the plugin
+#: wp-multi-contributors.php
+msgid "WP Multi Contributors"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wp-multi-contributors.php
+msgid "https://example.com/plugin-uri"
+msgstr ""
+
+#. Description of the plugin
+#: wp-multi-contributors.php
+msgid "Add multiple contributors to a post and display them on the frontend with their Gravatars."
+msgstr ""
+
+#. Author of the plugin
+#: wp-multi-contributors.php
+msgid "Razon"
+msgstr ""
+
+#. Author URI of the plugin
+#: wp-multi-contributors.php
+msgid "https://example.com/"
+msgstr ""
+
+#: inc/admin/metaboxes.php:17
+#: inc/frontend/content.php:25
+msgid "Contributors"
+msgstr ""
